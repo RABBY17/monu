@@ -90,7 +90,7 @@ body{
     right: 30px;
     z-index: 99;
     font-size: 20px;
-    background: linear-gradient(#505cfd, #999999);
+    background: #505cfd;
     color: white;
     border-radius: 50%;
     cursor: pointer;
@@ -224,7 +224,7 @@ header{
         .navigation{
             display: flex;
             align-items: center;
-            padding: 10px 0;
+            padding: 20px 0;
 
             .toggler-btn{
                 display: none;
@@ -256,7 +256,7 @@ header{
                             width:0%; 
                             height:3px; 
                             background: linear-gradient(to right, #505cfd, #999999);
-                            transform:translateX( -50% ); 
+                            transform:translateX( -50% );
                             -webkit-transition:all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55); -o-transition:all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55); 
                             transition:all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
                             &:hover:after{
@@ -277,7 +277,7 @@ header{
                 margin-left: 50px;
                 &:hover{
                     border-color: transparent;
-                    background: linear-gradient(to right, #505cfd, #999999);
+                    background: #505cfd;
                     color: #fff;
                 }
             }
@@ -323,7 +323,7 @@ header{
             margin-top: 50px;
             border: none;
             color: #fff;
-            background: linear-gradient(to right, #505cfd, #999999);
+            background: #505cfd;
             &:hover{
                 transform: translateY(-5px)
             }
@@ -361,7 +361,7 @@ header{
     }
     &__item{
         background: $primary-color;
-        background: linear-gradient( #505cfd, #999999);
+        background: #505cfd;
         padding: 50px 70px;
         text-align: center;
         span,h3,p{
@@ -436,7 +436,7 @@ header{
 
             &:focus,&:focus-visible{
                 color: #fff;
-                background: linear-gradient(to right, #505cfd, #999999);
+                background: #505cfd;
                 &::placeholder{
                     color: #fff;
                 }
@@ -451,7 +451,7 @@ header{
             margin-left:30px ;
             color: #fff;
             border-radius: 30px;
-            background: linear-gradient(to right, #505cfd, #999999);
+            background: #505cfd;
             transition: .2s linear;
             &:hover{
                 transform: scaleX(1.1);
@@ -554,7 +554,7 @@ header{
             margin-top: 30px;
             &:hover{
                 border-color: transparent;
-                background: linear-gradient(to right, #505cfd, #999999);
+                background: #505cfd;
                 color: #fff;
             }
         }
@@ -699,7 +699,7 @@ header{
             font-weight: 400;
             &:hover{
                 border-color: transparent;
-                background: linear-gradient(to right, #505cfd, #999999);
+                background: #505cfd;
                 color: #fff;
             }
         }
