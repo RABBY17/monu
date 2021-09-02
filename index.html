@@ -18,8 +18,6 @@
                     CSS here
 ==================================================
 -->
-<link rel="stylesheet" href="fonts/poppins.css">
-<link rel="stylesheet" href="fonts/rubik.css">
 <link rel="stylesheet" href="css/fontawesomeall.min.css">
 <link rel="stylesheet" href="css/swiper-bundle.min.css">
 <link rel="stylesheet" href="css/style.css">
@@ -27,7 +25,16 @@
 
 
 </head>
-<body>
+<body onload="loadFunction()" style="margin:0;">
+
+    <div id="loader-container">
+        <div class="loadingio-spinner-ripple-shx55uk2vph">
+            <div class="ldio-ru1b8dj3q8">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
  
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
     

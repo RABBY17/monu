@@ -1,3 +1,14 @@
+var myVar;
+
+function loadFunction() {
+  myVar = setTimeout(showPage, 500);
+}
+
+function showPage() {
+  document.getElementById("loader-container").style.display = "none";
+  // document.getElementById("myDiv").style.display = "block";
+}
+
 /* scroll to top btn */
 var mybutton = document.getElementById("myBtn");
 /* When the user scrolls down 20px from the top of the document, show the button */
@@ -35,10 +46,16 @@ var swiper = new Swiper(".mySwiper", {
     direction: "horizontal",
     loop: true,
     autoplay: {
-        delay: 5000,
+        delay: 3000,
     },
     speed: 1000,
 });
+  /* swiper slider deactivate on mouse hover and then activate again */
+  $(".swiper-container").hover(function() {
+    (this).swiper.autoplay.stop();
+  }, function() {
+      (this).swiper.autoplay.start();
+  });
 
 /*-- CounterUp --*/
 $('.counter').counterUp({
@@ -76,3 +93,10 @@ var swiper = new Swiper(".partnerSwiper", {
       }
     }
   })
+
+    /* swiper slider deactivate on mouse hover and then activate again */
+    $(".swiper-container").hover(function() {
+      (this).swiper.autoplay.stop();
+    }, function() {
+        (this).swiper.autoplay.start();
+    });
